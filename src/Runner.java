@@ -64,10 +64,10 @@ public class Runner {
     jack.writeJoke("What do you call a farm that makes bad jokes? Corny!");
     studio54.groupRehearsal();   // see Exploration for expected output
 
-/*
+
     //------ TESTING cabaretShow method ------
     System.out.println("----- TESTING cabaretShow method -----");
     studio54.cabaretShow();   // see Exploration for expected output
-*/
+
   }
 }

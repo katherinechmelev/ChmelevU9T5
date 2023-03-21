@@ -64,4 +64,13 @@ public class Cabaret {
             }
         }
     }
+
+    public void cabaretShow(){
+        for(Performer performer: performers){
+            if(performer instanceof Dancer){
+                ((Dancer)performer).pirouette(2);
+            }
+            performer.perform();
+        }
+    }
 }
